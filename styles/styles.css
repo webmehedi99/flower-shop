@@ -5,3 +5,127 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: "Poppins", sans-serif;
+  }
+ 
+  .banner-section-container{
+    max-width: 1920px;
+    height: 850px;
+    background-color:#FCEEF1 ;
+  }
+  .banner-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+  }
+  .banner-text-container{
+    width: 50%;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+ .banner-text-container h1{
+    margin-bottom: 20px;
+    font-size: 55px;
+    margin-right: 240px;
+    
+  }
+  .banner-text-container button{
+   width: 150px;
+   height: 45px;
+   margin-top: 20px;
+   margin-right: 620px;
+   background-color: #E55473;
+   color: white;
+   font-size: 20px;
+   border: none;
+   border-radius: 4px;
+   
+  }
+  .banner-image-container{
+    height: 850px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .banner-image-container img{
+    width: 80%;
+    margin-left: 120px;
+  }
+  /* banner styles end here */
+  
+  /* featured image styles starts here */
+  .featured-image-container{
+    width: 90%;
+    height: 850px;
+    margin: 0 auto;
+    margin-top: 100px;
+    
+  }
+  .featured-title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+  .featured-images{
+    display: flex;
+    gap: 40px;
+    margin-top: 60px;
+    margin-left: 240px;
+    margin-right: 240px;
+    
+  }
+  .image1, .image2, .image3{
+    
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% 50% 0 0;
+  }
+  #first-image{
+    background-color: #f2dee7;
+  }
+  #second-image{
+    background-color: #daf0f2;
+  }
+  #third-image{
+    background-color: #e3ecdc;
+  }
+  /* featured image styles end here */
+
+ /* fetures-container start here */
+ .features-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    max-width: 1440px;
+    height: 320px;
+    margin-top: -100px;
+    margin-left: 240px;
+    margin-right: 240px;
+    box-shadow: 0 0 5px ;
+    border: none;
+    gap: 100px;
+    margin-bottom: 20px;
+ }
+ .features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+ }
+ /* fetures-container end here */
