@@ -23,7 +23,7 @@ body {
   }
   .banner-text-container{
     width: 50%;
-    height: 850px;
+    height: 650px;
     display: flex;
     flex-direction: column;
     justify-content: center;
